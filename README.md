@@ -41,18 +41,26 @@ According to http://closertovaneyck.kikirpa.be/ (paraphased):
 
 > the image on this website (which is extracted and is a result of the program) may be used freely by anyone for research and educational purposes, as long as the website Closer to Van Eyck is clearly cited as their source. For any such use, please include the URL, or web address, of the original site (closertovaneyck.kikirpa.be)
 
-> These image may not be use for any for-profit activity, such as commercial publications or advertisements. If you wish to order any of the images for a scholarly publication, please email info@artinflanders.be
+> These image may **not** be use for any **for-profit activities**, such as commercial publications or advertisements. If you wish to order any of the images for a scholarly publication, please email info@artinflanders.be
 ## Licensing - ลิขสิทธิ์
-The program is distributed under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+The program is distributed under the GNU General Public License v3.0
 
-You are free to:
-- Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material
+You are free for:
+- Commercial use — The licensed material and derivatives may be used for commercial purposes.
+- Modification — The licensed material may be modified.
+- Distribution — The licensed material may be distributed.
+- Patent use — This license provides an express grant of patent rights from contributors.
+- Private use — The licensed material may be used and modified in private.
 
 The licensor cannot revoke these freedoms as long as you follow the license terms.
 
 Under the following terms:
-- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-- NonCommercial — You may not use the material for commercial purposes.
-- ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+- License and copyright notice — A copy of the license and copyright notice must be included with the licensed material.
+- State changes — Changes made to the licensed material must be documented.
+- Disclose source — Source code must be made available when the licensed material is distributed.
+- Same license — Modifications must be released under the same license when distributing the licensed material. In some cases a similar or related license may be used.
 - No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+Limitation:
+ - This license includes a limitation of liability.
+ - This license explicitly states that it does **NOT** provide any warranty.

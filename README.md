@@ -2,12 +2,31 @@
 A quick way to extract very large image from *Closer to Van Eyck.*
 
 โปรแกรมในการสกัดภาพขนาดใหญ่มาก ๆ อย่างรวดเร็ว จาก *Closer to Van Eyck*
+
+* [How to use - วิธีการใช้](#how-to-use---วิธีการใช้)
+* [Installation - การติดตั้ง](#installation---การติดตั้ง)
+* [Reporting bugs - รายงานข้อบกพร่อง](#reporting-bugs---รายงานข้อบกพร่อง)
+* [Legality - ทางด้านกฎหมาย](#legality---ทางด้านกฎหมาย)
+* [Licensing - ลิขสิทธิ์](#licensing---ลิขสิทธิ์)
+
 ## How to use - วิธีการใช้
 ### English
 The program has 4 input. Three are required and another one is optional.
- - **URL** — the URL is where the image is located. in *Closer to van Eyck,* the full image is cut into many small image for display. The program will both download the image and compile those to large file.
- - **Image width** —
- - **Image height** —
+***The process to get the information needed REQUIRED web inspection, which may not be avialable on mobile devices.***
+ - **URL** — the URL is where the image is located. in *Closer to van Eyck,* the full image is cut into many small image for display. The program will both download the image and compile those to large file. The URL should start with *http://data.closertovaneyck.be/* **NOT** *http://closertovaneyck.kikirpa.be*
+   - **How to get the URL**
+     - Apple Safari (macOS) 
+         1. Zoom to desire resolution (The more you zoom, the higher resolution image cell becomes) and move to the painting bottom-most right edge.
+         2. Press ***Option + ⌘ + C*** to open web inspector
+     - Google Chrome (Desktop)
+         1. Press ***Shift + CTRL + J*** (Windows) or ***Option + ⌘ + J*** (macOS) to open web inspector
+     - Mozilla Firefox (Desktop)
+         1. Press ***Shift + ⌘ + J*** (Windows) or ***Shift + ⌘ + J*** (macOS) to open web inspector
+     - Microsoft Edge (Windows)
+         1. Press ***CTRL + Shift + i*** to open web inspector
+       
+ - **Image width** — the width of the image. **NOT** the size in pixel. But the amount of the image cell. To convert to pixel, simply multiply by 256.
+ - **Image height** — the height of the image. **NOT** the size in pixel. But the amount of the image cell. To convert to pixel, simply multiply by 256.
  - **Result name** *(optional)* — enter *Result name* to name the result. Otherwise it would be named *"result.jpg"*
 ## Installation - การติดตั้ง
  The installation are blessfully truly simple. There're two  method with it own limitation.

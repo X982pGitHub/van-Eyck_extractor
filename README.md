@@ -22,9 +22,37 @@ The program has 4 input. Three are required and another one is optional.
     3. Create two folder in the IDE. Name it exactly:
        - Cell
        - Vertical
-    4. It should work now. Many online interpreter doesn't support file saving so you may need to switch if error repeatedly occured. If you believe it's a bug, go and read [Reporting bugs](Reporting_bugs_-_รายงานข้อบกพร่อง). Follows the steps there.
+    4. It should work now. Many online interpreter doesn't support file saving so you may need to switch if error repeatedly occured. If you believe it's a bug, go and read [Reporting bugs](#reporting-bugs---รายงานข้อบกพร่อง). Follows the steps there.
     
     **Limitation** - This process doesn't work on many interpreter. Even it *Replit,* maximum memory is 400Mb, which meant you may not be able to compile very large image.
 ## Reporting bugs - รายงานข้อบกพร่อง
+ If you believe you had encounter a bug. First, please read the [How to use](#How-to-use---วิธีการใช้) first. Mark sure you follow the step. If the bug still persist. Please contact me at thee.thitut@gmail.com with following information:
+ 1. Title the email "Attention: bug found on van Eyck extractor"
+ 2. Write the exact step you use to recreate the bug. If it cannot be repeat then I may not be able to help you.
+ 3. Write the error code given by the ternimal at the end of the email.
+ 4. Do not sign the email.
+ 5. Do not format the email/clear all formatting on the email.
+
+***The steps must be followed rigourously. Otherwise you would be ignored.***
 ## Legality - ทางด้านกฎหมาย
+The result given by the program is a faithful photographic reproduction of a two-dimensional, public domain work of art. The work of art itself is in the public domain because the author's life plus 100 years or fewer. This work is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1926. This photographic reproduction is therefore also considered to be in the public domain in the United States. In other jurisdictions, re-use of this content may be restricted
+
+According to http://closertovaneyck.kikirpa.be/ (paraphased): 
+
+> the image on this website (which is extracted and is a result of the program) may be used freely by anyone for research and educational purposes, as long as the website Closer to Van Eyck is clearly cited as their source. For any such use, please include the URL, or web address, of the original site (closertovaneyck.kikirpa.be)
+
+> These image may not be use for any for-profit activity, such as commercial publications or advertisements. If you wish to order any of the images for a scholarly publication, please email info@artinflanders.be
 ## Licensing - ลิขสิทธิ์
+The program is distributed under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
+
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- NonCommercial — You may not use the material for commercial purposes.
+- ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+- No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.

@@ -13,17 +13,38 @@ A quick way to extract very large image from *Closer to Van Eyck.*
 ### English
 The program has 4 input. Three are required and another one is optional.
 ***The process to get the information needed REQUIRED web inspection, which may not be avialable on mobile devices.***
- - **URL** — the URL is where the image is located. in *Closer to van Eyck,* the full image is cut into many small image for display. The program will both download the image and compile those to large file. The URL should start with *http://data.closertovaneyck.be/* **NOT** *http://closertovaneyck.kikirpa.be*
+ - **URL** — the URL is where the image is located. in *Closer to van Eyck,* the full image is cut into many small image for display. The program will both download the image and compile those to large file. The URL should start with *http://data.closertovaneyck.be/...* **NOT** *http://closertovaneyck.kikirpa.be/...*
    - **How to get the URL**
      - Apple Safari (macOS) 
          1. Zoom to desire resolution (The more you zoom, the higher resolution image cell becomes) and move to the painting bottom-most right edge.
-         2. Press ***Option + ⌘ + C*** to open web inspector
+         2. Press ***⌥ Option + ⌘ + C*** to open web inspector
+         3. Select *Sources* tab.
      - Google Chrome (Desktop)
-         1. Press ***Shift + CTRL + J*** (Windows) or ***Option + ⌘ + J*** (macOS) to open web inspector
+         1. Zoom to desire resolution (The more you zoom, the higher resolution image cell becomes) and move to the painting bottom-most right edge.
+         2. Press ***⇧ Shift + Ctrl + J*** (Windows) or ***⌥ Option + ⌘ + J*** (macOS) to open web inspector
+         3. Select *Sources* tab.
      - Mozilla Firefox (Desktop)
-         1. Press ***Shift + ⌘ + J*** (Windows) or ***Shift + ⌘ + J*** (macOS) to open web inspector
+         1. Zoom to desire resolution (The more you zoom, the higher resolution image cell becomes) and move to the painting bottom-most right edge.
+         2. Press ***⇧ Shift + Ctrl + J*** (Windows) or ***⇧ Shift + ⌘ + J*** (macOS) to open web inspector
      - Microsoft Edge (Windows)
-         1. Press ***CTRL + Shift + i*** to open web inspector
+         1. Zoom to desire resolution (The more you zoom, the higher resolution image cell becomes) and move to the painting bottom-most right edge.
+         2. Press ***Ctrl + ⇧ Shift + I*** to open web inspector
+         3. Select *Sources* tab. If it cannot be found. You may need to press **≫** (more tabs) first. Then a drop down would list *Sources* tab.
+  - **URL format**
+    - Example: http://data.closertovaneyck.be/verona/tiles/26-VIS-UH/13/12_17.jpg
+      - Image: 
+        
+        ![Arnolfini Portrait bottom-most right edge](http://data.closertovaneyck.be/verona/tiles/26-VIS-UH/13/12_17.jpg)
+        - Image size: This image is 256 pixels high and 148 pixels wide. This cell is clipped since it's on the edge. Normal image cell is a square of 256 pixels on each side. 
+        - Image name: **12_17.jpg** The name is format in ***(x dimension)***_***(y dimension)***.jpg The number is not in pixels but in the amount of image cell.
+      - Domain: It **MUST** be *data.closertovaneyck.be/* which is the image database. **NOT** *closertovaneyck.kikirpa.be/*
+      - Sub-folders:
+        - First and second sub-folder is usually ***verona/tiles/***
+        - Third sub-folder is the i.d. of the painting. In this case ***26-VIS-UH/*** but it would be different on different painting.
+        - Fourth sub-folder is the amount of zoom (resolution) of the image.  In this case ***13/*** Higher the number, higher the resolution. But changing the resolution would shift the relative location of the image cell to the real painting. **NOTE:** This number doesn't increase the size of the cell. The cell size is constant at 256 pixels. But each cell will be *closer* to the painting. So it required more cell to fill the whole painting. Hence the higher resolution. The resolutio is not limited and must be found by afforemention process. Changing the resolution, one must find new *x and y dimension* since it will have moved.
+      - How to use this URL:
+        - Copy all of the URL **EXCEPT** the image name onto the URL input. In this case ***http://data.closertovaneyck.be/verona/tiles/26-VIS-UH/13/*** should be inputted.
+        - Input the *x dimension* from the image name to **Image width** and *y dimension* from the image name to **Image height**
        
  - **Image width** — the width of the image. **NOT** the size in pixel. But the amount of the image cell. To convert to pixel, simply multiply by 256.
  - **Image height** — the height of the image. **NOT** the size in pixel. But the amount of the image cell. To convert to pixel, simply multiply by 256.
